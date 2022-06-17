@@ -138,3 +138,28 @@ span{
         margin-left: 2em;
     }
 }
+@media(min-width: 1110px){
+    main {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-content: center;
+            height: 100vh;
+            max-width: 100%;
+            width: 80%;
+            margin: auto;
+        }
+    
+        .down {
+            margin-top: 100px;
+            width: 450px;
+        }
+        #btn1{
+            width: 450px;
+        }
+    
+        input,
+        .btn2 {
+            width: 400px;
+        }
+}
